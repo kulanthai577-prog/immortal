@@ -13,6 +13,11 @@
   --text-muted: #94a3b8;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 /* navbar */
 
 .navbar-brand img {
@@ -464,7 +469,8 @@ section {
 }
 
 .work-1 {
-  margin-left: 45%;
+   display: block;
+  margin: 20px auto;
 }
 
 .tag-btn:hover {
@@ -801,7 +807,7 @@ section {
 
 .timeline-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
   position: relative;

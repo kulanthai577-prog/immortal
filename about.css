@@ -5,7 +5,10 @@
 }
 
 
-
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .bg-circle {
   position: fixed;
   width: 200px;
@@ -661,7 +664,8 @@ section {
 }
 
 .work-1 {
-  margin-left: 45%;
+   display: block;
+  margin: 20px auto;
 }
 
 .timeline-section {
@@ -713,7 +717,7 @@ section {
 
 .timeline-container {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   flex-wrap: wrap;
   gap: 20px;
   position: relative;
@@ -833,7 +837,8 @@ section {
 }
 
 .why-card {
-  width: 22%;
+   flex: 1 1 250px;
+  max-width: 300px;
   padding: 25px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.05);
@@ -1279,7 +1284,8 @@ footer {
     font-size: 12px;
   }
   .timeline-card{
-    margin-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .why-card {
